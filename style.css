@@ -1,0 +1,31 @@
+.iframe{
+
+	width: 70%;
+	height: 500px;
+}
+.pcolor{
+	color: darkgreen;
+	font-size: 40px;
+}
+.entities{
+	font-size: 40px;
+	color: darkseagreen;
+}
+.emojis{
+	font-size: 50px;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: darkseagreen;
+	padding:100px 50px 30px 10px;
+	margin: 30px;
+	
+}
+.form{
+	font-size: 50px;
+	color: lightsteelblue;
+	padding: 100px;
+	margin: 50;
+}

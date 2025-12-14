@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="#" method="post" enctype="multipart/form-data" accept-charset="utf-8" name="Form" target="blank" autocomplete="on" id="form" novalidate >
+		
+
+	<fieldset>
+  		<legend>Personalia:</legend>
+  		<label for="first-name">First Name :</label>
+		<input type="text" placeholder="first-name" name="first-name" size="50" disabled ><br>
+		<label for="last-name">Last Name :</label>
+		<input type="text" placeholder="last-name" name="last-name" size="50" ><br>
+		<label for="email">Enter email:</label>
+  		<input type="email" id="email" name="email" value="email" size="50"><br>
+  		<label for="birthday">Birthday:</label>
+		<input type="date" id="birthday" name="birthday" value="birthday" maxlength="50"size="50"><br>
+		<button type="submit" form="form" value="Submit">Submit</button>
+		<input type="reset" value="Reset"><br>
+	</fieldset><br>
+	
+
+  		 <label for="browser">Choose a browser:</label>
+			  <select name="browser" id="browser">
+			    <optgroup label="secure browser ">
+			      <option value="avast secure browser">avast secure browser</option>
+			      <option value="avg secure browser">avg secure browser</option>
+			    </optgroup>
+			    <optgroup label="browser">
+			      <option value="edge">edge</option>
+			      <option value="chorme">chorme</option>
+			    </optgroup>
+			  </select>
+			  <input type="submit"><br><br>
+	 	<label for="browser">Choose a browser from the list:</label>
+		<input list="browsers" name="browser" id="browser">
+				  <datalist id="browsers">
+				    <option value="Edge">
+				    <option value="Avast Secure Browser">
+				    <option value="Chrome">
+				    <option value="Opera">
+				    <option value="AVG Secure Browser">
+				  </datalist>
+		<input type="submit"><br>
+			
+			    <textarea name="message" rows="10" cols="30"></textarea><br><br>
+  			  <input type="submit"><br><br>
+
+	</form>
+
+</body>
+</html>
